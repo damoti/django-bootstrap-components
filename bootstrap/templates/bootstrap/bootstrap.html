@@ -1,0 +1,8 @@
+{% load bootstrap %}
+{% if element|is_field %}
+  {% include 'bootstrap/field.html' with field=element %}
+{% elif element|is_form %}
+  {% include 'bootstrap/form.html' with form=element %}
+{% elif element|is_formset %}
+  {% include 'bootstrap/formset.html' with formset=element%}
+{% endif %}
