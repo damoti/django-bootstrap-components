@@ -1,4 +1,5 @@
-django_bootstrap.egg-info/
+django_bootstrap_components.egg-info/
 __pycache__/
-.idea
-dist
+.idea/
+dist/
+build/

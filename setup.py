@@ -13,9 +13,9 @@ long_description = '\n\n'.join((
 
 
 setup(
-    name='django-bootstrap',
+    name='django-bootstrap-components',
     version='3.0.1',
-    url='https://github.com/damoti/django-bootstrap',
+    url='https://github.com/damoti/django-bootstrap-components',
     license='BSD',
     description='Bootstrap components and add-ons integrated with Django.',
     long_description=long_description,
