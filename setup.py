@@ -14,7 +14,7 @@ long_description = '\n\n'.join((
 
 setup(
     name='django-bootstrap-components',
-    version='3.0.1',
+    version='3.0.2',
     url='https://github.com/damoti/django-bootstrap-components',
     license='BSD',
     description='Bootstrap components and add-ons integrated with Django.',
@@ -32,6 +32,6 @@ setup(
         'Topic :: Software Development :: Testing',
         'Topic :: Software Development :: User Interfaces',
     ],
-    packages=find_packages(),
+    packages=find_packages(exclude=('bootstrap.tests',)),
     include_package_data=True
 )
